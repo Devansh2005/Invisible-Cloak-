@@ -47,9 +47,9 @@ while (cap.isOpened()):
 
     final_output= cv2.addWeighted(res1, 1, res2, 1, 0)
 
-    cv2.imshow("Eureka !", final_output)
+    cv2.imshow("Got yaa", final_output)
 
-    if cv2.waitKey(1) == 13:  
+    if cv2.waitKey(1) == 13:  # Ascii code for enter key
         break
 
 cap.release()
