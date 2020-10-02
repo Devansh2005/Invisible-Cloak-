@@ -7,7 +7,7 @@ import time
 
 cap= cv2.VideoCapture(0)
 
-time.sleep(2) # 2 sec time to adjust cam with time
+time.sleep(5) # 5sec time to adjust cam with time
 
 background = 0
 
