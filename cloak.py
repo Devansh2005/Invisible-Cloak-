@@ -9,8 +9,6 @@ cap = cv2.VideoCapture(0)
 time.sleep(2)  # 2 sec time to adjust cam with time
 
 background = 0
-t = 0
-
 
 # capturing the background
 for i in range(30):  # 30 times
