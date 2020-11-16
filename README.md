@@ -1,3 +1,3 @@
 # Invisible-Cloak-
 
-## Make Sure you have a cloak of red color.
+## Make Sure you have a red color cloak 
