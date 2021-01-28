@@ -29,15 +29,15 @@ while (cap.isOpened()):
 
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
     # hsv values
-    lower_red = np.array([0, 120, 70])
-    upper_red = np.array([10, 255, 255])
+    lower_green = np.array([36, 0, 0])
+    upper_green = np.array([86, 255, 255])
 
-    mask1 = cv2.inRange(hsv, lower_red, upper_red)  # seperating the cloak part
+    mask1 = cv2.inRange(hsv, lower_green, upper_green)  # seperating the cloak part
 
-    lower_red = np.array([170, 120, 70])
-    upper_red = np.array([180, 255, 255])
+    lower_green = np.array([36, 0, 0])
+    upper_green = np.array([86, 255, 255])
 
-    mask2 = cv2.inRange(hsv, lower_red, upper_red)
+    mask2 = cv2.inRange(hsv, lower_green, upper_green)
 
     mask1 = mask1 + mask2  # OR (Combining)
 # #remove  noise
